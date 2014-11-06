@@ -1,0 +1,26 @@
+.page-content {
+  width: 80%;
+  margin: 0 auto;
+  overflow:auto;
+}
+.profiles {
+  width: 30%;
+  float: left;
+}
+main {
+  float: right;
+  width: 60%;
+  margin-top: 10px;
+  background-color: #cabb94;
+  text-align: left;
+  border-radius: 5px;
+}
+footer {
+  height: 230px;
+  width: 960px;
+  padding: 2px;
+  margin:15px auto;
+  background-color: #524D70;
+  border-radius: 5px;
+  color: #fffdee;
+}

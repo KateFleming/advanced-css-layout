@@ -1,0 +1,49 @@
+/* Header Module */
+header {
+  text-align:center;
+}
+header .header-title-bar {
+  z-index: 1;
+  position: absolute;
+  top: 330px;
+  width: 100%;
+  padding:20px 0;
+  margin:0;
+  background-color: #524D70;
+  opacity: .75;
+  color: #fffdee;
+}
+header .header-image {
+  display: block;
+  margin: 0 auto;
+  border-radius:0 0 5px 5px;
+}
+
+/* Profile Module */
+.profile {
+  margin-top: 10px;
+  position: relative;
+  background-color: #afb673;
+  border-radius: 5px;
+}
+.profile-image {
+  display:block;
+  margin:auto;
+}
+.profile-text h3 {
+  margin: 0px;
+  text-align: center;
+}
+.profile-text p {
+  margin: 0;
+  padding: 5px 0 3px 0;
+  font-size: 13pt;
+  text-align: left;
+  padding: 5px;
+}
+
+/* More Info */
+.more-info {
+  padding:0 55px;
+  font-size: 14pt;
+}
