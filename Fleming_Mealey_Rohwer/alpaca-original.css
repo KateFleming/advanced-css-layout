@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+  background-color: #dcd6c0;
+}
+.main {
+  width: 960px;
+  height: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titleBar {
+  background-color: #524D70;
+  opacity: .75;
+  height: 90px;
+  z-index: 2;
+  position: absolute;
+  top: 330px;
+  width: 100%;
+  color: #fffdee;
+  text-align: center;
+}
+.headerimg {
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.profilecontainer {
+  height: 360px;
+  width: 120px;
+  clear: none;
+  float: left;
+}
+.profile {
+  height: 310px;
+  width: 310px;
+  margin-top: 10px;
+  position: relative;
+  background-color: #afb673;
+  border-radius: 5px;
+}
+.profileimg {
+  position: absolute;
+  vertical-align: top;
+  top: 10px;
+  right: 105px;
+}
+.profiletext {
+  font-size: 13pt;
+  position: absolute;
+  bottom: 0px;
+  text-align: left;
+  margin-left: 5px;
+  padding-bottom: 5px;
+}
+.profiletext h3 {
+  margin: 0px;
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
+.profiletext p {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+.profile:hover {
+  background-color: #9d8d5a;
+}
+.infocontainer {
+  float: right;
+  background-color: #cabb94;
+  height: 950px;
+  width: 640px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.moreinfo {
+  height: 400px;
+  padding-left: 55px;
+  padding-right: 55px;
+  text-align: center;
+  font-size: 14pt;
+}
+footer {
+  height: 230px;
+  width: 960px;
+  background-color: #524D70;
+  border-radius: 5px;
+  color: #fffdee;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 0px;
+}

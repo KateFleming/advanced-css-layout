@@ -1,0 +1,104 @@
+
+body {
+  font-family: 'Droid Sans', sans-serif;
+  background-color: #dcd6c0;
+  flex-direction: colume;
+}
+header{
+  order:1;
+}
+.page-content {
+  width: 960px;
+  margin: 0 auto;
+  overflow:auto;
+  flex-direction:row;
+  order:2;
+}
+.title-bar {
+  background-color: #524D70;
+  opacity: .75;
+  height: 90px;
+  z-index: 1;
+  position: absolute;
+  top: 330px;
+  width: 100%;
+  color: #fffdee;
+  text-align: center;
+}
+header img {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  border-radius:0 0 5px 5px;
+}
+.profiles {
+  width: 120px;
+  clear: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  order:1;
+  flex-direction:colume;
+}
+#nicole{
+  order:1;
+}
+#betty{
+  order:2;
+}
+#domino{
+  order:3;
+}
+.profile {
+  width: 310px;
+  margin-top: 10px;
+  position: relative;
+  background-color: #afb673;
+  border-radius: 5px;
+}
+.profile:hover {
+  background-color: #9d8d5a;
+}
+.profile-image {
+  display:block;
+  margin:auto;
+  padding: 10px;
+}
+.profile-text {
+  font-size: 13pt;
+  text-align: left;
+  padding: 5px;
+  align-content:flex-end;
+}
+.profile-text h3 {
+  text-align: center;
+}
+.profile-text p {
+  padding: 5px 0 3px 0;
+
+}
+main {
+  background-color: #cabb94;
+  height: 906px;
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 5px;
+  order:2;
+  justify-content:centered;
+  flex-wrap:no-wrap;
+}
+.more-info {
+  padding:0 55px;
+  font-size: 14pt;
+  justify-content:flex-start;
+
+}
+
+footer {
+  height: 230px;
+  width: 960px;
+  background-color: #524D70;
+  border-radius: 5px;
+  color: #fffdee;
+  padding: 2px;
+  margin:15px auto;
+  order:3;
+}
