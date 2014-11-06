@@ -22,13 +22,14 @@ header .header-image {
 /* Profile Module */
 .profile {
   margin-top: 10px;
+  padding:5px;
   position: relative;
   background-color: #afb673;
   border-radius: 5px;
 }
 .profile-image {
   display:block;
-  margin:auto;
+  margin:10px auto;
 }
 .profile-text h3 {
   margin: 0px;
@@ -42,8 +43,8 @@ header .header-image {
   padding: 5px;
 }
 
-/* More Info */
-.more-info {
+/* Main content */
+.main-content {
   padding:0 55px;
   font-size: 14pt;
 }

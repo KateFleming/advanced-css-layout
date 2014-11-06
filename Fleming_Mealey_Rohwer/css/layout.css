@@ -1,19 +1,21 @@
 .page-content {
-  width: 80%;
+  width: 960px;
   margin: 0 auto;
   overflow:auto;
+  display:flex;
+  flex-direction:row;
 }
 .profiles {
-  width: 30%;
-  float: left;
+  box-sizing:border-sizing;
+  width: 40%;
 }
 main {
-  float: right;
+  box-sizing:border-sizing;
   width: 60%;
-  margin-top: 10px;
   background-color: #cabb94;
   text-align: left;
   border-radius: 5px;
+  margin:10px 0 0 10px;
 }
 footer {
   height: 230px;
